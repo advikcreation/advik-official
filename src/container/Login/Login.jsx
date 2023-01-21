@@ -24,7 +24,7 @@ const change = () => {
     <>
     <Body >
     <MainContainer>
-      <WelcomeText>Welcome <br/>Advik</WelcomeText>
+      <WelcomeText>Welcome to <br/>  Advik</WelcomeText>
      
       <InputContainer>
       
