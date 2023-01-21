@@ -7,7 +7,7 @@ import image from './background.jpg';
 import React, { useState } from 'react';
 import { client } from '../../client';
 
-function App() {
+const Login = () => {
   const FacebookBackground =
     "linear-gradient(to right, #0546A0 0%, #0546A0 40%, #663FB6 100%)";
   const InstagramBackground =
@@ -181,4 +181,4 @@ const ForgotPassword = styled.h4`
   cursor: pointer;
 `;
 
-export default App;
+export default Login;
