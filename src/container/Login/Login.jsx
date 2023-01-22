@@ -4,7 +4,7 @@ import React, { useState } from "react";
 // import { client } from '../../client';
 
 import sample from "./advik.mp4";
-import "./index.css";
+import "./Login.css";
 
 const Login = () => {
   return (
