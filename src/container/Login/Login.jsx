@@ -7,6 +7,11 @@ import React, { useState } from "react";
 import "./Login.css";
 
 const Login = () => {
+  
+  const handleChange = () => {
+  alert("Hello, I am advik [this function work on next update] ")
+  }
+  
   return (
     <div className="background">
       
@@ -24,7 +29,7 @@ const Login = () => {
         <label for="password">Password</label>
         <input type="password" placeholder="Password" id="password"></input>
 
-        <button>Log In</button>
+        <button onClick={handleChange}>Log In</button>
 
         <div className="iconContainer">
           <a href="https:instagram.com/officials_advik">
