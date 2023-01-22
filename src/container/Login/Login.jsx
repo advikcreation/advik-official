@@ -3,7 +3,7 @@ import image from "./profile.png";
 import React, { useState } from "react";
 // import { client } from '../../client';
 
-import sample from "./advik.mp4";
+// import sample from "./advik.mp4";
 import "./Login.css";
 
 const Login = () => {
