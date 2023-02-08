@@ -2,6 +2,7 @@ import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 import image from "./profile.png";
 import React, { useState } from "react";
 // import { client } from '../../client';
+import { Link } from "react-router-dom";
 
 // import sample from "./advik.mp4";
 import "./Login.css";
@@ -29,10 +30,10 @@ const Login = () => {
         <label for="password">Password</label>
         <input type="password" placeholder="Password" id="password"></input>
 
-<a href='/home'>
+<Link to='/home'>
         <button 
 // onClick={handleChange}
->Log In</button></a>
+>Log In</button></Link>
 
         <div className="iconContainer">
           <a href="https:instagram.com/officials_advik">
